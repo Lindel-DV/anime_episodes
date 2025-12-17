@@ -18,6 +18,7 @@ Anime_Episodes = [
         "Main_Character2": "Sasuke Uchiha",
         "Main_Character3": "Sakura Haruno",
         "Year_Written": 1999,
+        "Country": Kadirland,
         "My_Personal_Opinion": "A nostalgic masterpiece!"
     },
     {
@@ -28,12 +29,13 @@ Anime_Episodes = [
         "Main_Character2": "Mikasa Ackerman",
         "Main_Character3": "Armin Arlert",
         "Year_Written": 2009,
+        "Country": Akioland,
         "My_Personal_Opinion": "A thrilling and dark adventure."
     }
 ]
 
 # Example Usage:
-from shared_lists import Anime_Episodes, USER_ROLES, SUPPORTED_COUNTRIES
+from shared_lists import Anime_Episodes
 
 print("Allowed roles:", USER_ROLES)
 if "admin" in USER_ROLES:
